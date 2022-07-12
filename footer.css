@@ -1,0 +1,139 @@
+
+
+  *{
+  padding: 0;
+}
+
+footer {
+  margin: 0;
+  bottom:0px;
+  width:100%;
+  background:linear-gradient(to top,#d6d6d6,grey);
+  display:flex;
+  padding-top: 15px;
+}
+
+.footer-content {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  
+}
+
+
+.footer-content .leftbox{
+  flex-basis:20%;
+  padding:10px 20px;
+}
+
+
+.leftbox h2{
+ font-size:18px;
+text-transform: uppercase;
+font-weight:600;
+}
+
+.leftbox .fcontent{
+  margin: 20px 0 0 0;
+}
+
+.leftbox .fcontent p {
+  line-height:30px;
+}
+
+.leftbox .fcontent .socialmedia{
+  margin:20px 0 0 0;
+}
+
+.leftbox .fcontent .socialmedia a{
+  padding: 0 2px;
+}
+
+.leftbox .fcontent .socialmedia a i{
+  width:40px;
+  height:40px;
+  background:white;
+  text-align:center;
+  line-height:40px;
+  border-radius:5px;
+  font-size:18px;
+  transition: 0.3s;
+}
+
+.leftbox .fcontent .socialmedia a i:hover{
+  background: rgb(255, 115, 0);
+}
+
+.leftbox .fcontent p{
+  text-align:justify;
+}
+
+.rightbox form input, .rightbox form textarea{
+  width:100%;
+  font-size:17px;
+  background:white;
+  padding-left:10px;
+  border:1px solid black;
+} 
+
+.rightbox form input {
+  height:35px;
+}
+
+.rightbox form input:focus, .rightbox form textarea:focus {
+  outline-color:#3498db;
+}
+
+.rightbox form .text{
+  font-size:17px;
+  margin-bottom:2px;
+}
+
+.rightbox form .btn{
+  margin-top:10px;
+}
+
+.rightbox form .btn button{
+  height:40px;
+  width:100%;
+  background:#f12020;
+  font-size:17px;
+  font-weight:500;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.rightbox form .btn button:hover {
+  background:grey;
+}
+
+ footer .footer-content h2{
+  text-align:center;
+}
+
+.titulo-footer{
+  text-align:center;
+}
+
+@media screen and (max-width:900px){
+  footer{
+    position:relative;
+    bottom: 0px;
+    width:100%;
+  }
+
+  .footer-content{
+    flex-wrap:wrap;
+    flex-direction:column;
+  }
+  .footer-content .fcontent{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-content  #firstfcontent{
+    display:flex;
+    flex-direction:column;
+  }
+}
+
