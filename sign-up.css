@@ -1,0 +1,62 @@
+#body-signup {
+  overflow: hidden;
+}
+
+#main-signup{
+  background-color: #d6d6d6;
+  display: flex;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 400px;
+}
+
+h1,h3{
+  top:78px;
+  text-align:center;
+
+}
+
+#labels{
+  position:relative;
+  top:30x;
+  margin:20px;
+  text-align:center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.infos-signup{
+  margin-bottom:18px;
+}
+
+#finalizar-signup{
+  margin-top:14px;
+  position: relative;
+    left: 66px;
+    top: 8px;
+}
+#finalizar-signup input{
+  padding:10px;
+}
+
+
+#input-senha-novamente {
+  width: 185px;
+}
+
+main#main-signup > div{
+  top:90px;
+}
+
+#sectionsignup {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
