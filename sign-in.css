@@ -1,0 +1,29 @@
+#body-signin {
+  overflow: hidden;
+}
+
+#main-login {
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.infos-login {
+  margin: 10px 30px 10px 30px;
+}
+
+#continue-button {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.h1-signin {
+  margin-top: 0;
+}
+
+#sectionsignin {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
